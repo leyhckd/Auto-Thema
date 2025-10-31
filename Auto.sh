@@ -203,7 +203,7 @@ show_date () {
   tgl=$(date +"%d")
   bln=$(date +"%m")
   thn=$(date +"%Y")
-  printf "\e[2;90m";figlet -f term -c -t "Powered by L4EROOR/KMB"
+  printf "\e[2;90m";figlet -f term -c -t "Powered by HARLEY"
   echo -e "\n\033[1;91m        ╼═\033[94m☾ \033[93mDATE\033[95m: \033[4;97m$hari\e[0m\033[94m , \033[4;92m$tgl\e[0m\033[95m-\033[4;92m$bln\e[0m\033[95m-\033[4;92m$thn\e[0m\033[94m ☽\033[91m═╾"
 }
 
